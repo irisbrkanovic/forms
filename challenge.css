@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    width: 30rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgb(233, 229, 229);
+    padding: 1.5rem;
+    box-shadow: 0px 2px 5px darkgray;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inputs {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    margin-bottom: 0.2rem;
+    display: block;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    font: inherit;
+    border: solid 1px rgb(99, 91, 91);
+    border-radius: 6px;
+    padding: .25rem;
+    box-sizing: border-box;
+    display: block;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(223, 218, 218);
+    color: rgb(42, 44, 44);
+}
+
+select {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.control-inline {
+    display: flex;
+}
+
+.control-inline input {
+    width: auto;
+    margin: 0;
+    margin-right: .5rem;
+}
+
+.control-inline label {
+    margin-bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    font: inherit;
+    margin-left: .5rem;
+    border-radius: 6px;
+    padding: 0.5rem 0.8rem;
+    border: 0.5px solid #38383d;
+    cursor: pointer;
+}
+
+#submit {
+background-color: #38383d;
+color: white;
+}
